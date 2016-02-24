@@ -16,6 +16,7 @@
 		1CD3C84D1C7D2CEC00F64C62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3C84C1C7D2CEC00F64C62 /* Assets.xcassets */; };
 		1CD3C8501C7D2CEC00F64C62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3C84E1C7D2CEC00F64C62 /* LaunchScreen.storyboard */; };
 		1CD3C85A1C7D391D00F64C62 /* al-seana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3C8591C7D391D00F64C62 /* al-seana.ttf */; };
+		1CD3C86E1C7D487400F64C62 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3C8701C7D487400F64C62 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		1CD3C84F1C7D2CEC00F64C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CD3C8511C7D2CEC00F64C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CD3C8591C7D391D00F64C62 /* al-seana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-seana.ttf"; path = "Font/al-seana.ttf"; sourceTree = "<group>"; };
+		1CD3C8711C7D489100F64C62 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1CD3C8731C7D49EF00F64C62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,7 @@
 				1CD3C8461C7D2CEB00F64C62 /* GameViewController.h */,
 				1CD3C8471C7D2CEB00F64C62 /* GameViewController.m */,
 				1CD3C8491C7D2CEB00F64C62 /* Main.storyboard */,
+				1CD3C8701C7D487400F64C62 /* Localizable.strings */,
 				1CD3C84C1C7D2CEC00F64C62 /* Assets.xcassets */,
 				1CD3C84E1C7D2CEC00F64C62 /* LaunchScreen.storyboard */,
 				1CD3C8511C7D2CEC00F64C62 /* Info.plist */,
@@ -140,8 +144,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				"pt-BR",
+				en,
 			);
 			mainGroup = 1CD3C82F1C7D2CEB00F64C62;
 			productRefGroup = 1CD3C8391C7D2CEB00F64C62 /* Products */;
@@ -159,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD3C8451C7D2CEB00F64C62 /* GameScene.sks in Resources */,
+				1CD3C86E1C7D487400F64C62 /* Localizable.strings in Resources */,
 				1CD3C8501C7D2CEC00F64C62 /* LaunchScreen.storyboard in Resources */,
 				1CD3C84D1C7D2CEC00F64C62 /* Assets.xcassets in Resources */,
 				1CD3C85A1C7D391D00F64C62 /* al-seana.ttf in Resources */,
@@ -197,6 +203,16 @@
 				1CD3C84F1C7D2CEC00F64C62 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1CD3C8701C7D487400F64C62 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CD3C8711C7D489100F64C62 /* pt-BR */,
+				1CD3C8731C7D49EF00F64C62 /* en */,
+			);
+			name = Localizable.strings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

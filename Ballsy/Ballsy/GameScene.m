@@ -15,7 +15,7 @@
 {
     self.backgroundColor = [SKColor whiteColor];
     SKLabelNode *label = [SKLabelNode labelNodeWithFontNamed:@"Al-seana"];
-    label.text = @"Hello World";
+    label.text = NSLocalizedString(@"hello_world", @"Hello World");
     label.position = CGPointMake(CGRectGetMidX(self.frame),                          CGRectGetMidY(self.frame));
     label.fontColor = [SKColor blackColor];
     label.fontSize = 100;
