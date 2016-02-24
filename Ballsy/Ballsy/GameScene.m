@@ -2,11 +2,12 @@
 //  GameScene.m
 //  Ballsy
 //
-//  Created by CICCC1 on 2016-02-23.
+//  Created by Luiz Fernando Peres on 2016-02-23.
 //  Copyright (c) 2016 Ideia do Luiz. All rights reserved.
 //
 
 #import "GameScene.h"
+#import "Background.h"
 
 @implementation GameScene
 
@@ -14,36 +15,19 @@
 -(void)didMoveToView:(SKView *)view
 {
     self.backgroundColor = [SKColor whiteColor];
-    SKLabelNode *label = [SKLabelNode labelNodeWithFontNamed:@"Al-seana"];
-    label.text = NSLocalizedString(@"hello_world", @"Hello World");
-    label.position = CGPointMake(CGRectGetMidX(self.frame),                          CGRectGetMidY(self.frame));
-    label.fontColor = [SKColor blackColor];
-    label.fontSize = 100;
-    [self addChild:label];
+    __unused Background *bg = [Background nodeWithColorLine:[SKColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:0.1] andParent:self];
 }
 
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    /* Called when a touch begins */
-    
-    for (UITouch *touch in touches) {
-        CGPoint location = [touch locationInNode:self];
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    /*for (UITouch *touch in touches)
+    {
         
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-        
-        sprite.xScale = 0.5;
-        sprite.yScale = 0.5;
-        sprite.position = location;
-        
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-        
-        [sprite runAction:[SKAction repeatActionForever:action]];
-        
-        [self addChild:sprite];
-    }
+    }*/
 }
 
--(void)update:(CFTimeInterval)currentTime {
-    /* Called before each frame is rendered */
+-(void)update:(CFTimeInterval)currentTime
+{
 }
 
 @end

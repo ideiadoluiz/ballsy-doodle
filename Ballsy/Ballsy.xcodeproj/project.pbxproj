@@ -17,6 +17,8 @@
 		1CD3C8501C7D2CEC00F64C62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3C84E1C7D2CEC00F64C62 /* LaunchScreen.storyboard */; };
 		1CD3C85A1C7D391D00F64C62 /* al-seana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3C8591C7D391D00F64C62 /* al-seana.ttf */; };
 		1CD3C86E1C7D487400F64C62 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3C8701C7D487400F64C62 /* Localizable.strings */; };
+		1CD3C8771C7D4E3700F64C62 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C8761C7D4E3700F64C62 /* BaseObject.m */; };
+		1CD3C87A1C7D511900F64C62 /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C8791C7D511900F64C62 /* Background.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,10 @@
 		1CD3C8591C7D391D00F64C62 /* al-seana.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "al-seana.ttf"; path = "Font/al-seana.ttf"; sourceTree = "<group>"; };
 		1CD3C8711C7D489100F64C62 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		1CD3C8731C7D49EF00F64C62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1CD3C8751C7D4E3700F64C62 /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseObject.h; path = Base/BaseObject.h; sourceTree = "<group>"; };
+		1CD3C8761C7D4E3700F64C62 /* BaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseObject.m; path = Base/BaseObject.m; sourceTree = "<group>"; };
+		1CD3C8781C7D511900F64C62 /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Background.h; path = Base/Background.h; sourceTree = "<group>"; };
+		1CD3C8791C7D511900F64C62 /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Background.m; path = Base/Background.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 		1CD3C83A1C7D2CEB00F64C62 /* Ballsy */ = {
 			isa = PBXGroup;
 			children = (
+				1CD3C8741C7D4E1800F64C62 /* Base */,
 				1CD3C8571C7D384600F64C62 /* Font */,
 				1CD3C83E1C7D2CEB00F64C62 /* AppDelegate.h */,
 				1CD3C83F1C7D2CEB00F64C62 /* AppDelegate.m */,
@@ -100,6 +107,17 @@
 				1CD3C8591C7D391D00F64C62 /* al-seana.ttf */,
 			);
 			name = Font;
+			sourceTree = "<group>";
+		};
+		1CD3C8741C7D4E1800F64C62 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1CD3C8751C7D4E3700F64C62 /* BaseObject.h */,
+				1CD3C8761C7D4E3700F64C62 /* BaseObject.m */,
+				1CD3C8781C7D511900F64C62 /* Background.h */,
+				1CD3C8791C7D511900F64C62 /* Background.m */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +198,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD3C8481C7D2CEB00F64C62 /* GameViewController.m in Sources */,
+				1CD3C87A1C7D511900F64C62 /* Background.m in Sources */,
+				1CD3C8771C7D4E3700F64C62 /* BaseObject.m in Sources */,
 				1CD3C8401C7D2CEB00F64C62 /* AppDelegate.m in Sources */,
 				1CD3C8431C7D2CEB00F64C62 /* GameScene.m in Sources */,
 				1CD3C83D1C7D2CEB00F64C62 /* main.m in Sources */,
