@@ -14,20 +14,14 @@
 
 @implementation Background
 
-+ (instancetype)nodeWithColorLine:(SKColor *)colorLine andParent:(SKScene *)parent
+- (instancetype)initWithColorLine:(UIColor *)colorLine andParent:(SKScene *)parent
 {
-    Background *background = [Background node];
-    if (background)
-    {
-        [background initializeFormWithColorLine:colorLine andParent:parent];
-        
-        [parent addChild:background];
-    }
-    
-    return background;
+    CGMutablePathRef path = [Background initializeFormWithParent:parent];
+    self = [super initWithPath:path lineWidth:1.0 colorLine:colorLine andParent:parent];
+    return self;
 }
 
-- (void) initializeFormWithColorLine:(SKColor *)colorLine andParent:(SKScene*)parent
++ (CGMutablePathRef) initializeFormWithParent:(SKScene*)parent
 {
     CGSize size = parent.size;
     CGMutablePathRef pathToDraw = CGPathCreateMutable();
@@ -44,9 +38,7 @@
         CGPathAddLineToPoint(pathToDraw, NULL, x, size.height);
     }
     
-    self.path = pathToDraw;
-    self.lineWidth = 1.0;
-    [self setStrokeColor:colorLine];
+    return pathToDraw;
 }
 
 @end

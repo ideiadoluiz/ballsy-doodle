@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C79FAA91C7E9CDA00D58ABF /* BaseShapeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C79FAA81C7E9CDA00D58ABF /* BaseShapeObject.m */; };
 		1CD3C83D1C7D2CEB00F64C62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C83C1C7D2CEB00F64C62 /* main.m */; };
 		1CD3C8401C7D2CEB00F64C62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C83F1C7D2CEB00F64C62 /* AppDelegate.m */; };
 		1CD3C8431C7D2CEB00F64C62 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C8421C7D2CEB00F64C62 /* GameScene.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C79FAA71C7E9CDA00D58ABF /* BaseShapeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseShapeObject.h; path = Base/BaseShapeObject.h; sourceTree = "<group>"; };
+		1C79FAA81C7E9CDA00D58ABF /* BaseShapeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseShapeObject.m; path = Base/BaseShapeObject.m; sourceTree = "<group>"; };
 		1CD3C8381C7D2CEB00F64C62 /* Ballsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ballsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD3C83C1C7D2CEB00F64C62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CD3C83E1C7D2CEB00F64C62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 			children = (
 				1CD3C8751C7D4E3700F64C62 /* BaseObject.h */,
 				1CD3C8761C7D4E3700F64C62 /* BaseObject.m */,
+				1C79FAA71C7E9CDA00D58ABF /* BaseShapeObject.h */,
+				1C79FAA81C7E9CDA00D58ABF /* BaseShapeObject.m */,
 				1CD3C8781C7D511900F64C62 /* Background.h */,
 				1CD3C8791C7D511900F64C62 /* Background.m */,
 			);
@@ -200,6 +205,7 @@
 				1CD3C8481C7D2CEB00F64C62 /* GameViewController.m in Sources */,
 				1CD3C87A1C7D511900F64C62 /* Background.m in Sources */,
 				1CD3C8771C7D4E3700F64C62 /* BaseObject.m in Sources */,
+				1C79FAA91C7E9CDA00D58ABF /* BaseShapeObject.m in Sources */,
 				1CD3C8401C7D2CEB00F64C62 /* AppDelegate.m in Sources */,
 				1CD3C8431C7D2CEB00F64C62 /* GameScene.m in Sources */,
 				1CD3C83D1C7D2CEB00F64C62 /* main.m in Sources */,
@@ -361,6 +367,7 @@
 				1CD3C8561C7D2CEC00F64C62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

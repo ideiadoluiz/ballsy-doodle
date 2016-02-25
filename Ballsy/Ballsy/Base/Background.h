@@ -6,10 +6,10 @@
 //  Copyright © 2016 Ideia do Luiz. All rights reserved.
 //
 
-#import "BaseObject.h"
+#import "BaseShapeObject.h"
 
-@interface Background : SKShapeNode
+@interface Background : BaseShapeObject
 
-+ (instancetype)nodeWithColorLine:(SKColor *)colorLine andParent:(SKScene *)parent;
+- (instancetype)initWithColorLine:(SKColor *)colorLine andParent:(SKScene *)parent;
 
 @end

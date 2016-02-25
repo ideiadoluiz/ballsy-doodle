@@ -15,7 +15,7 @@
 -(void)didMoveToView:(SKView *)view
 {
     self.backgroundColor = [SKColor whiteColor];
-    __unused Background *bg = [Background nodeWithColorLine:[SKColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:0.1] andParent:self];
+    __unused Background *bg = [[Background alloc ] initWithColorLine:[SKColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:0.1] andParent:self];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
