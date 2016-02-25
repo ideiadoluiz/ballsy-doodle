@@ -6,18 +6,23 @@
 //  Copyright © 2016 Ideia do Luiz. All rights reserved.
 //
 
-#import "Background.h"
+#import "ShapeBackground.h"
 
-@interface Background ()
+@interface ShapeBackground ()
 
 @end
 
-@implementation Background
+@implementation ShapeBackground
 
 - (instancetype)initWithColorLine:(UIColor *)colorLine andParent:(SKScene *)parent
 {
-    CGMutablePathRef path = [Background initializeFormWithParent:parent];
+    CGMutablePathRef path = [ShapeBackground initializeFormWithParent:parent];
     self = [super initWithPath:path lineWidth:1.0 colorLine:colorLine andParent:parent];
+    
+    if (self)
+    {
+    }
+    
     return self;
 }
 

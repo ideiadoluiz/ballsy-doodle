@@ -7,15 +7,14 @@
 //
 
 #import "GameScene.h"
-#import "Background.h"
+#import "NewGameView.h"
 
 @implementation GameScene
 
 
 -(void)didMoveToView:(SKView *)view
 {
-    self.backgroundColor = [SKColor whiteColor];
-    __unused Background *bg = [[Background alloc ] initWithColorLine:[SKColor colorWithRed:1.0 green:0.0 blue:0.0 alpha:0.1] andParent:self];
+    [[NewGameView sharedInstance] createNewGameWithParentScene:self];
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event

@@ -8,7 +8,7 @@
 
 #import "BaseShapeObject.h"
 
-@interface Background : BaseShapeObject
+@interface ShapeBackground : BaseShapeObject
 
 - (instancetype)initWithColorLine:(SKColor *)colorLine andParent:(SKScene *)parent;
 

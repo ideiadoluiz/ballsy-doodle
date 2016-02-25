@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1C79FAA91C7E9CDA00D58ABF /* BaseShapeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C79FAA81C7E9CDA00D58ABF /* BaseShapeObject.m */; };
+		1C79FAAD1C7EA26000D58ABF /* NewGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C79FAAC1C7EA26000D58ABF /* NewGameView.m */; };
+		1C79FAB01C7EACF200D58ABF /* BaseShapeObjectCollidable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C79FAAF1C7EACF200D58ABF /* BaseShapeObjectCollidable.m */; };
+		1C79FAB31C7EAD1B00D58ABF /* ShapePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C79FAB21C7EAD1B00D58ABF /* ShapePlayer.m */; };
+		1C79FAB61C7EB14700D58ABF /* ShapePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C79FAB51C7EB14700D58ABF /* ShapePlatform.m */; };
 		1CD3C83D1C7D2CEB00F64C62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C83C1C7D2CEB00F64C62 /* main.m */; };
 		1CD3C8401C7D2CEB00F64C62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C83F1C7D2CEB00F64C62 /* AppDelegate.m */; };
 		1CD3C8431C7D2CEB00F64C62 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C8421C7D2CEB00F64C62 /* GameScene.m */; };
@@ -19,12 +23,20 @@
 		1CD3C85A1C7D391D00F64C62 /* al-seana.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3C8591C7D391D00F64C62 /* al-seana.ttf */; };
 		1CD3C86E1C7D487400F64C62 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3C8701C7D487400F64C62 /* Localizable.strings */; };
 		1CD3C8771C7D4E3700F64C62 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C8761C7D4E3700F64C62 /* BaseObject.m */; };
-		1CD3C87A1C7D511900F64C62 /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C8791C7D511900F64C62 /* Background.m */; };
+		1CD3C87A1C7D511900F64C62 /* ShapeBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD3C8791C7D511900F64C62 /* ShapeBackground.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C79FAA71C7E9CDA00D58ABF /* BaseShapeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseShapeObject.h; path = Base/BaseShapeObject.h; sourceTree = "<group>"; };
 		1C79FAA81C7E9CDA00D58ABF /* BaseShapeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseShapeObject.m; path = Base/BaseShapeObject.m; sourceTree = "<group>"; };
+		1C79FAAB1C7EA26000D58ABF /* NewGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGameView.h; path = Views/NewGameView.h; sourceTree = "<group>"; };
+		1C79FAAC1C7EA26000D58ABF /* NewGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewGameView.m; path = Views/NewGameView.m; sourceTree = "<group>"; };
+		1C79FAAE1C7EACF200D58ABF /* BaseShapeObjectCollidable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseShapeObjectCollidable.h; path = Base/BaseShapeObjectCollidable.h; sourceTree = "<group>"; };
+		1C79FAAF1C7EACF200D58ABF /* BaseShapeObjectCollidable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseShapeObjectCollidable.m; path = Base/BaseShapeObjectCollidable.m; sourceTree = "<group>"; };
+		1C79FAB11C7EAD1B00D58ABF /* ShapePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShapePlayer.h; path = Base/ShapePlayer.h; sourceTree = "<group>"; };
+		1C79FAB21C7EAD1B00D58ABF /* ShapePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShapePlayer.m; path = Base/ShapePlayer.m; sourceTree = "<group>"; };
+		1C79FAB41C7EB14700D58ABF /* ShapePlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShapePlatform.h; path = Base/ShapePlatform.h; sourceTree = "<group>"; };
+		1C79FAB51C7EB14700D58ABF /* ShapePlatform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShapePlatform.m; path = Base/ShapePlatform.m; sourceTree = "<group>"; };
 		1CD3C8381C7D2CEB00F64C62 /* Ballsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ballsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD3C83C1C7D2CEB00F64C62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CD3C83E1C7D2CEB00F64C62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,8 +55,8 @@
 		1CD3C8731C7D49EF00F64C62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1CD3C8751C7D4E3700F64C62 /* BaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseObject.h; path = Base/BaseObject.h; sourceTree = "<group>"; };
 		1CD3C8761C7D4E3700F64C62 /* BaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseObject.m; path = Base/BaseObject.m; sourceTree = "<group>"; };
-		1CD3C8781C7D511900F64C62 /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Background.h; path = Base/Background.h; sourceTree = "<group>"; };
-		1CD3C8791C7D511900F64C62 /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Background.m; path = Base/Background.m; sourceTree = "<group>"; };
+		1CD3C8781C7D511900F64C62 /* ShapeBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShapeBackground.h; path = Base/ShapeBackground.h; sourceTree = "<group>"; };
+		1CD3C8791C7D511900F64C62 /* ShapeBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShapeBackground.m; path = Base/ShapeBackground.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C79FAAA1C7EA24300D58ABF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C79FAAB1C7EA26000D58ABF /* NewGameView.h */,
+				1C79FAAC1C7EA26000D58ABF /* NewGameView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		1CD3C82F1C7D2CEB00F64C62 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +98,7 @@
 		1CD3C83A1C7D2CEB00F64C62 /* Ballsy */ = {
 			isa = PBXGroup;
 			children = (
+				1C79FAAA1C7EA24300D58ABF /* Views */,
 				1CD3C8741C7D4E1800F64C62 /* Base */,
 				1CD3C8571C7D384600F64C62 /* Font */,
 				1CD3C83E1C7D2CEB00F64C62 /* AppDelegate.h */,
@@ -119,8 +141,14 @@
 				1CD3C8761C7D4E3700F64C62 /* BaseObject.m */,
 				1C79FAA71C7E9CDA00D58ABF /* BaseShapeObject.h */,
 				1C79FAA81C7E9CDA00D58ABF /* BaseShapeObject.m */,
-				1CD3C8781C7D511900F64C62 /* Background.h */,
-				1CD3C8791C7D511900F64C62 /* Background.m */,
+				1C79FAAE1C7EACF200D58ABF /* BaseShapeObjectCollidable.h */,
+				1C79FAAF1C7EACF200D58ABF /* BaseShapeObjectCollidable.m */,
+				1C79FAB11C7EAD1B00D58ABF /* ShapePlayer.h */,
+				1C79FAB21C7EAD1B00D58ABF /* ShapePlayer.m */,
+				1C79FAB41C7EB14700D58ABF /* ShapePlatform.h */,
+				1C79FAB51C7EB14700D58ABF /* ShapePlatform.m */,
+				1CD3C8781C7D511900F64C62 /* ShapeBackground.h */,
+				1CD3C8791C7D511900F64C62 /* ShapeBackground.m */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -203,12 +231,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CD3C8481C7D2CEB00F64C62 /* GameViewController.m in Sources */,
-				1CD3C87A1C7D511900F64C62 /* Background.m in Sources */,
+				1CD3C87A1C7D511900F64C62 /* ShapeBackground.m in Sources */,
 				1CD3C8771C7D4E3700F64C62 /* BaseObject.m in Sources */,
 				1C79FAA91C7E9CDA00D58ABF /* BaseShapeObject.m in Sources */,
+				1C79FAB31C7EAD1B00D58ABF /* ShapePlayer.m in Sources */,
 				1CD3C8401C7D2CEB00F64C62 /* AppDelegate.m in Sources */,
+				1C79FAB61C7EB14700D58ABF /* ShapePlatform.m in Sources */,
 				1CD3C8431C7D2CEB00F64C62 /* GameScene.m in Sources */,
 				1CD3C83D1C7D2CEB00F64C62 /* main.m in Sources */,
+				1C79FAAD1C7EA26000D58ABF /* NewGameView.m in Sources */,
+				1C79FAB01C7EACF200D58ABF /* BaseShapeObjectCollidable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
