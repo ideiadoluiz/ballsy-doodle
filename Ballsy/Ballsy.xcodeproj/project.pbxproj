@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C250A411C7FF5F1007FC9E2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C250A401C7FF5F1007FC9E2 /* CoreMotion.framework */; };
 		1C79FAA91C7E9CDA00D58ABF /* BaseShapeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C79FAA81C7E9CDA00D58ABF /* BaseShapeObject.m */; };
 		1C79FAAD1C7EA26000D58ABF /* NewGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C79FAAC1C7EA26000D58ABF /* NewGameView.m */; };
 		1C79FAB01C7EACF200D58ABF /* BaseShapeObjectCollidable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C79FAAF1C7EACF200D58ABF /* BaseShapeObjectCollidable.m */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C250A401C7FF5F1007FC9E2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		1C79FAA71C7E9CDA00D58ABF /* BaseShapeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseShapeObject.h; path = Base/BaseShapeObject.h; sourceTree = "<group>"; };
 		1C79FAA81C7E9CDA00D58ABF /* BaseShapeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseShapeObject.m; path = Base/BaseShapeObject.m; sourceTree = "<group>"; };
 		1C79FAAB1C7EA26000D58ABF /* NewGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewGameView.h; path = Views/NewGameView.h; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C250A411C7FF5F1007FC9E2 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +85,7 @@
 		1CD3C82F1C7D2CEB00F64C62 = {
 			isa = PBXGroup;
 			children = (
+				1C250A401C7FF5F1007FC9E2 /* CoreMotion.framework */,
 				1CD3C83A1C7D2CEB00F64C62 /* Ballsy */,
 				1CD3C8391C7D2CEB00F64C62 /* Products */,
 			);

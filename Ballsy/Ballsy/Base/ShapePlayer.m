@@ -46,8 +46,19 @@
 {
     self.physicsBody.categoryBitMask = BEE_PLAYER_MASK;
     self.physicsBody.dynamic = YES;
+    self.physicsBody.mass = 0.02;
 }
 
+- (void) bounce
+{
+    self.physicsBody.velocity = CGVectorMake(0.0, 0.0);
+    [self.physicsBody applyImpulse:CGVectorMake(0.0, 10.0)];
+}
 
+- (void) applyAccelerometerForce:(double)forceX
+{
+    self.physicsBody.velocity = CGVectorMake(0.0, self.physicsBody.velocity.dy);
+    [self.physicsBody applyForce:CGVectorMake(1000.0 * forceX, 0.0)];
+}
 
 @end

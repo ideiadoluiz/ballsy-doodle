@@ -45,6 +45,8 @@
 
 - (void) initialize
 {
+    //self.physicsBody = [SKPhysicsBody bodyWithRectangleOfSize:CGRectMake(0, 0, 100, 20)];
+    //self.physicsBody.dynamic = NO;
     self.physicsBody.categoryBitMask = BEE_PLATFORM_MASK;
     self.physicsBody.contactTestBitMask = BEE_PLAYER_MASK;
 }

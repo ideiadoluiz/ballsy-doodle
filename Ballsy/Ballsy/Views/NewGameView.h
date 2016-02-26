@@ -13,9 +13,10 @@
 @interface NewGameView : NSObject
 
 @property (readonly) ShapeBackground *background;
-@property (readonly) SKNode *player;
+@property (readonly) ShapePlayer *player;
 
 + (instancetype) sharedInstance;
 - (void) createNewGameWithParentScene:(SKScene *)parent;
+- (void) createPlatformAtPoint:(CGPoint)point andParent:(SKScene *)parent;
 
 @end

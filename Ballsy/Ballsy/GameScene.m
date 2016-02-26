@@ -9,20 +9,25 @@
 #import "GameScene.h"
 #import "NewGameView.h"
 
+@interface GameScene ()
+
+@end
+
 @implementation GameScene
 
 
 -(void)didMoveToView:(SKView *)view
 {
     [[NewGameView sharedInstance] createNewGameWithParentScene:self];
+    
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    /*for (UITouch *touch in touches)
-    {
-        
-    }*/
+    UITouch *touch = [touches anyObject];
+    CGPoint point = [touch locationInNode:self];
+    
+    [[NewGameView sharedInstance] createPlatformAtPoint:point andParent:self];
 }
 
 -(void)update:(CFTimeInterval)currentTime

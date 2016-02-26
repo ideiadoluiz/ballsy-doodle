@@ -12,4 +12,7 @@
 
 + (instancetype) playerDefaultWithParent:(SKScene *)parent;
 
+- (void) bounce;
+- (void) applyAccelerometerForce:(double)forceX;
+
 @end
